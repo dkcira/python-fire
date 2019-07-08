@@ -2,6 +2,8 @@
 # calling functions
 import fire
 
+# hyphens and underscores (- and _) are interchangeable in member names and flag names
+
 class Building(object):
 
     def __init__(self, name, stories=1):
