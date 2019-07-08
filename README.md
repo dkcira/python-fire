@@ -56,6 +56,15 @@ https://github.com/trendct-data/airports.py
 ./example10.py --name="Sherrerd Hall" climb_stairs --stairs-per-story 10
 ./example10.py climb-stairs --stairs-per-story 10 --name="Sherrerd Hall"
 
+# function arguments: *varargs *kwargs
+./example11.py dog cat elephant
+./example11.py dog cat elephant - upper
+./example11.py dog cat elephant X upper -- --separator=X
+
+
+
+#########
+
 Links
 https://github.com/google/python-fire/blob/master/docs/guide.md
 https://opensource.googleblog.com/2017/03/python-fire-command-line.html?utm_content=bufferf0f28&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer`
