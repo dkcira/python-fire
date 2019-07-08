@@ -31,6 +31,17 @@ pip install fire
 ./example6.py digestion run
 ./example6.py digestion status
 
+# airports module
+https://github.com/trendct-data/airports.py
+# accessing properties
+./example7.py --code=JFK code
+./example7.py --code=SJC name
+./example7.py --code=ALB city
+# upper works because 'city' is a string
+./example7.py --code=ALB city upper
+
+
+
 Links
 https://github.com/google/python-fire/blob/master/docs/guide.md
 https://opensource.googleblog.com/2017/03/python-fire-command-line.html?utm_content=bufferf0f28&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer`
