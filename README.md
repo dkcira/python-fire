@@ -45,6 +45,12 @@ https://github.com/trendct-data/airports.py
 ./example8.py move 3 3 on move 3 6 on move 6 3 on move 6 6 on move 7 4 on move 7 5 on __str__
 ./example8.py move 3 3 on __str__ --size 20
 
+# simpler hello world
+./example9.py english
+./example9.py spanish
+
+
+
 Links
 https://github.com/google/python-fire/blob/master/docs/guide.md
 https://opensource.googleblog.com/2017/03/python-fire-command-line.html?utm_content=bufferf0f28&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer`
