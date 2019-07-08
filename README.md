@@ -6,7 +6,7 @@ pip install fire
 # calling the method of a class
 ./example1.py  hello
 ./example1.py  hello David
-./example1.py  hello David --interactive
+./example1.py  hello David -- --interactive
 
 # calling a function
 ./example2.py dorian
@@ -62,6 +62,16 @@ https://github.com/trendct-data/airports.py
 ./example11.py dog cat elephant X upper -- --separator=X
 
 
+# argument parsing
+./example12.py 10
+./example12.py "10"
+./example12.py \"10\"
+./example12.py 10.0
+./example12.py 'hello'
+./example12.py '(1,2)'
+./example12.py [1,2]
+./example12.py True
+ ./example12.py '{name: David}'
 
 #########
 
