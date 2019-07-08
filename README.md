@@ -49,7 +49,11 @@ https://github.com/trendct-data/airports.py
 ./example9.py english
 ./example9.py spanish
 
-
+# calling functions
+./example10.py  --name="Sherrerd Hall" --stories=3 climb_stairs 10
+./example10.py --name="Sherrerd Hall" climb_stairs --stairs_per_story=10
+./example10.py --name="Sherrerd Hall" climb_stairs --stairs-per-story 10
+./example10.py climb-stairs --stairs-per-story 10 --name="Sherrerd Hall"
 
 Links
 https://github.com/google/python-fire/blob/master/docs/guide.md
