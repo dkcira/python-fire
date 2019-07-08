@@ -40,7 +40,10 @@ https://github.com/trendct-data/airports.py
 # upper works because 'city' is a string
 ./example7.py --code=ALB city upper
 
-
+# Chaining function calls using class with methods that return self
+./example8.py move 3 3 on __str__
+./example8.py move 3 3 on move 3 6 on move 6 3 on move 6 6 on move 7 4 on move 7 5 on __str__
+./example8.py move 3 3 on __str__ --size 20
 
 Links
 https://github.com/google/python-fire/blob/master/docs/guide.md
